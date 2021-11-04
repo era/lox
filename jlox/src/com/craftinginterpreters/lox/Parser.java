@@ -88,7 +88,7 @@ class Parser {
     }
 
 
-        private Expr equality() {
+    private Expr equality() {
         Expr expr = comparison();
 
         while (match(BANG_EQUAL, EQUAL_EQUAL)) {
